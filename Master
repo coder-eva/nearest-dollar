@@ -1,0 +1,4 @@
+print('Hello, I can help you round to the nearest dollar.') #this explains the purpose the robot
+myChange = input('How much money do you have?\n') #this asks how much money the user has
+
+print('$' + str(format(myChange, '.2f')) + ' rounds to ' + '$' + str(int(round(myChange))) +'.00\n' + 'Don\'t spend it all at once!')
